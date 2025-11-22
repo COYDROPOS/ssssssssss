@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uncles Server</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: linear-gradient(to bottom, #4a752b, #a3c57a);
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+      color: #fff;
+    }
+    header {
+      background: #4a6cf7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 25px auto;
+      background: #eef1ff;
+      color: #000;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #4a6cf7;
+    }
+    .box {
+      background: #dde8ff;
+      padding: 15px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+    }
+    code {
+      background: #ddd;
+      padding: 3px 6px;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+    .copy-btn {
+      background: #8b4513;
+      color: #fff;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-left: 10px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+      transition: 0.2s;
+    }
+    .copy-btn:hover {
+      background: #a0522d;
+      transform: scale(1.1);
+    }
+    .ip-box {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .ip-input {
+      border: 1px solid #ccc;
+      padding: 6px;
+      border-radius: 6px;
+      font-family: monospace;
+      flex: 1;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      margin: 30px 0 10px 0;
+      font-size: 14px;
+      color: #666;
+    }
+    video {
+      display: block;
+      margin: 15px auto;
+      width: 100%;
+      max-width: 640px;
+      height: auto;
+      border: 4px solid #4a6cf7;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>Uncles Server</header>
+
+  <div class="container">
+
+    <h2>📌 معلومات السيرفر</h2>
+    <div class="box">
+      <p><strong>IP:</strong> GGGGF.ateros.me</p>
+      <p><strong>Port:</strong> 49742</p>
+    </div>
+
+    <h2>💻 دخول لاعبي Java 🪓</h2>
+    <div class="box">
+      <p>اكتب أي اسم للسيرفر:</p>
+      <div class="ip-box">
+        <input class="ip-input" type="text" value="GGGGF.ateros.me:49742" id="java-ip" readonly>
+        <button class="copy-btn" onclick="copyToClipboard('java-ip')">نسخ</button>
+      </div>
+      <img src="java.png" alt="Java Server Image">
+      <ol>
+        <li>افتح Minecraft Java Edition.</li>
+        <li>اضغط <strong>Multiplayer</strong>.</li>
+        <li>اضغط <strong>Add Server</strong>.</li>
+        <li>استخدم الـ IP والـ Port في خانة Address: <code>GGGGF.ateros.me:49742</code></li>
+        <li>اضغط <strong>Done</strong> ثم <strong>Join</strong>.</li>
+      </ol>
+    </div>
+
+    <h2>📱 دخول لاعبي Bedrock 🏰</h2>
+    <div class="box">
+      <p>اكتب أي اسم للسيرفر:</p>
+      <div class="ip-box">
+        <input class="ip-input" type="text" value="GGGGF.ateros.me 49742" id="bedrock-ip" readonly>
+        <button class="copy-btn" onclick="copyToClipboard('bedrock-ip')">نسخ</button>
+      </div>
+      <img src="bedrock.png" alt="Bedrock Server Image">
+      <ol>
+        <li>افتح Minecraft Bedrock.</li>
+        <li>اختر <strong>Play</strong>.</li>
+        <li>اذهب إلى <strong>Servers</strong>.</li>
+        <li>اختر <strong>Add Server</strong>.</li>
+        <li>أدخل الـ IP والـ Port في الخانات المناسبة.</li>
+        <li>اضغط <strong>Save</strong> ثم <strong>Join Server</strong>.</li>
+      </ol>
+    </div>
+
+    <h2>📜 قوانين السيرفر</h2>
+    <div class="box">
+      <ol>
+        <li>عدم السب والشتم منعا باتا.</li>
+        <li>يُفتح السيرفر أيام الإجازات من الساعة 8:00 صباحاً إلى الساعة 10:00 مساءً - إذا لم يكن مفتوحاً أخبر صاحب السيرفر لفتحه.</li>
+        <li>الادمن غالباً غير متواجد، إذا أردت الدخول تواصل عبر جروب السيرفر على الواتس <strong>(Uncles Server)</strong> لمعرفة آخر الأخبار.</li>
+      </ol>
+    </div>
+
+    <h2>🎬 لقطة أسطورية</h2>
+    <video controls autoplay muted loop>
+      <source src="clip.mp4" type="video/mp4">
+      متصفحك لا يدعم تشغيل الفيديو.
+    </video>
+    <p>أنا وأخوي ضد 5 واردن! 😎</p>
+
+    <footer>Made by COYDROPOS</footer>
+
+  </div>
+
+  <script>
+    function copyToClipboard(id) {
+      const copyText = document.getElementById(id);
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      document.execCommand('copy');
+      alert('مبروووووك: ' + copyText.value);
+    }
+  </script>
+</body>
+</html>
