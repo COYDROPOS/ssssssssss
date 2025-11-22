@@ -110,7 +110,7 @@
         <input class="ip-input" type="text" value="GGGGF.ateros.me:49742" id="java-ip" readonly>
         <button class="copy-btn" onclick="copyToClipboard('java-ip')">نسخ</button>
       </div>
-      <img src="java.png" alt="Java Server Image">
+      <img src="java-server-image.png" alt="Java Server Image">
       <ol>
         <li>افتح Minecraft Java Edition.</li>
         <li>اضغط <strong>Multiplayer</strong>.</li>
@@ -127,7 +127,7 @@
         <input class="ip-input" type="text" value="GGGGF.ateros.me 49742" id="bedrock-ip" readonly>
         <button class="copy-btn" onclick="copyToClipboard('bedrock-ip')">نسخ</button>
       </div>
-      <img src="bedrock.png" alt="Bedrock Server Image">
+      <img src="bedrock-server-image.png" alt="Bedrock Server Image">
       <ol>
         <li>افتح Minecraft Bedrock.</li>
         <li>اختر <strong>Play</strong>.</li>
@@ -148,7 +148,7 @@
     </div>
 
     <h2>🎬 لقطة أسطورية</h2>
-    <video width="632" height="632" controls autoplay muted loop>
+    <video width="640" height="360" controls autoplay muted loop>
       <source src="clip.mp4" type="video/mp4">
       متصفحك لا يدعم تشغيل الفيديو.
     </video>
@@ -164,9 +164,8 @@
       copyText.select();
       copyText.setSelectionRange(0, 99999);
       document.execCommand('copy');
-      alert('مبروووووك: ' + copyText.value);
+      alert('تم نسخ: ' + copyText.value);
     }
   </script>
 </body>
 </html>
-
